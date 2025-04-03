@@ -30,12 +30,17 @@ body {
   .content {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px 40px;
+    padding: 20px 12%;
     border-radius: 8px;
   }
   
   .content h2 {
     margin-bottom: 20px;
+    max-width: 400px;
+  }
+
+  h2.content {
+    padding: 50px 0 0 0;
   }
   
   /* Button Styles */
